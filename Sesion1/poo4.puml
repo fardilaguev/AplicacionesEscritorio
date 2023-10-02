@@ -1,0 +1,15 @@
+@startuml
+
+class Salon {
+    -puerta: Puerta
+    +Salon(puerta: Puerta)
+}
+
+class Puerta {
+
+}
+
+Salon --o Puerta
+
+
+@enduml

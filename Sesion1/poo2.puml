@@ -1,0 +1,17 @@
+@startuml
+
+class Vehiculo {
+    +arrancar()
+}
+
+class Auto {
+    +arrancar()
+}
+
+class Moto {
+    +arrancar()
+}
+
+Vehiculo <|-- Auto
+Vehiculo <|-- Moto
+@enduml
